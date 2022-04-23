@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+        	
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    background-color:#0d1117;
+} 
+
+main{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.topo{
+
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+}
+
+.imgq{
+
+    width:100%;
+    max-width:60px;
+    margin-top:30px;
+}
+
+.imgh{
+
+    width:100%;
+    max-width:60px;
+    margin-top:20px;
+}
+
+.topo>h1{
+
+    font-family: 'Lato', sans-serif;
+    font-size:calc(60% + 2.3vmin);
+    color:#C9D1D9;
+    font-weight:300;
+}
+
+form{
+
+    background-color:#161b22;
+    width:100%;
+    max-width:305px;
+    margin:auto;
+    margin-top:20px;
+    border-radius:5px;
+    padding:17px;
+    outline:solid 0.9px #21262d;
+}
+
+.card>input{
+
+    display:block;
+    background-color:#0d1117;
+    width:100%;
+    border:none;
+    padding:8px;
+    outline:none;
+    outline:solid 2px #21262d;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.card>input:hover{
+
+    outline:solid 2px #58a6ff;
+
+}
+
+
+.card>label{
+
+    font-family: 'Lato', sans-serif;
+    font-size:calc(60% + 0.8vmin);
+    color:#C9D1D9;
+    font-weight:400px;
+}
+
+
+.card>div{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.card>div>label{
+
+    font-family: 'Lato', sans-serif;
+    font-size:calc(60% + 0.8vmin);
+    color:#C9D1D9;
+    font-weight:400px;
+}
+
+.card>div>a{
+
+    font-family:sans-serif;
+    color:#4885cb;
+    font-size:calc(60% + 0.3vmin);
+    text-decoration:none;
+}
+
+
+
+button{
+
+    background-color:#238636;
+    width:100%;
+    border:none;
+    padding:8px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+
+
+button>p{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 0.9vmin);
+    color:#ffffff;
+    font-weight:400px;
+}
+
+
+.cardbaxio{
+
+    background-color:transparent;
+    width:100%;
+    max-width:305px;
+    outline:solid 1.9px #21262d;
+    border-radius:5px;
+    margin-top:20px;
+    padding:17px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+}
+
+.cardbaxio>p{
+
+    font-family: 'Lato', sans-serif;
+    font-size:calc(60% + 0.7vmin);
+    font-weight:300px;
+    color:#ffffff;
+    font-weight:400px;
+}
+
+.cardbaxio>a{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 0.6vmin);
+    font-weight:300;
+    color:#4e94e3;
+    font-weight:400px;
+    text-decoration:none;
+
+}
+
+
+section{
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    margin-top:80px;
+}
+
+
+section>a{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 0.3vmin);
+    color:#4e94e3;
+    text-decoration:none;
+}
+
+
+
+
+section>p{
+
+    font-family:sans-serif;
+    font-size:calc(60% + 0.4vmin);
+    color:#8b949e;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    body{
+
+        background-color:#ffffff;
+
+    }
+
+    .imgq{
+
+        display:none;
+    }
+
+    .topo>h1{
+
+        font-family:sans-serif;
+        font-size:calc(60% + 2.7vmin);
+        color:#000000;
+
+    }
+
+    .cardbaxio>p{
+
+        font-family:sans-serif;
+        color:#000000;
+
+    }
+
+    .cardbaxio>a{
+
+        font-family:sans-serif;
+        font-size:calc(60% + 1vmin);
+        color: #0077ff;
+
+    }
+
+    section>p{
+
+        font-size:calc(60% + 0.8vmin);
+        color:#000000dc;
+    }
+
+    section>a{
+
+        font-family:sans-serif;
+        font-size:calc(60% + 0.8vmin);
+        color: #0077ff;
+    }
+
+    form{
+
+        background-color:#eef2f588;
+        outline:solid 0.9px  	#c0c0c05e;
+    }
+
+
+    .card>input{
+
+        color:black;
+        background-color: #ffffff;
+        outline:solid 0.9px  	#C0C0C0;
+    }
+
+
+    .card>input:hover{
+
+       
+        outline:solid 2px #58a6ff;
+    }
+
+    .cardbaxio{
+
+        outline:solid 0.9px  	#c0c0c05e;
+    }
+
+    .card>label{
+
+        font-family:sans-serif;
+        color:#000000;
+    }
+
+    .card>div>label{
+
+        font-family:sans-serif;
+        color:#000000;
+    }
+
+    .card>div>a{
+
+        color: #0077ff;
+    }
+
+  }
+
+
+
+  @media screen and (min-width: 550px) {
+
+    .imgh{
+
+        display:none;
+        margin-top:30px;
+    }
+
+
+  }
